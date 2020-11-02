@@ -1,3 +1,14 @@
+### Nuxtjs ###
+# depencies
+node_modules
+# log
+npm-debug.log
+# Nuxt build
+.nuxt
+# Nuxt generate
+dist
+
+### Rails ###
 *.rbc
 capybara-*.html
 .rspec
