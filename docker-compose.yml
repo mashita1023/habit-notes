@@ -22,6 +22,14 @@ services:
     stdin_open: true
     tty: true
 
+  web:
+    build: ./web/
+    command: npm run dev
+    volumes:
+      - ./web:/myapp
+    ports:
+      - "8080:8080"
+    tty: true
 
 volumes:
   mysql-data:
